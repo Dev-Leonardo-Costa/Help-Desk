@@ -33,9 +33,9 @@ dependencies {
         because('Starter para validação de dados')
     }
 
-//    implementation ('br.com.valdircezar:hd-commons-lib:1.0.0') {
-//        because('Lib para compartilhar código comum entre os projetos')
-//    }
+    implementation ('br.com.leonardo:hd-commons-lib:1.0.0') {
+        because('Lib para compartilhar código comum entre os projetos')
+    }
 
     implementation ('org.springframework.boot:spring-boot-starter-security') {
         because('Starter para integrar com o Spring Security')
